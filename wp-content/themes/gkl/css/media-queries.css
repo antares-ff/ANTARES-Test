@@ -1,0 +1,332 @@
+/* Desktops and laptops ----------- */
+@media screen 
+and (max-width : 1199px) {
+
+.topGroup {
+	height: 100%;	
+}
+
+.topGroup .gruen {
+		background: url(../img/bg_gruen-verlauf.jpg) no-repeat;
+		padding-bottom: 0;
+}
+
+.responsive-slider.flexslider .slide-title a, .responsive-slider.flexslider .slide-title a:hover { margin-left: 20px; }
+.responsive-slider.flexslider .flex-control-nav { right: 20px; }
+
+.aktuelles { 
+	margin-top: 0;
+	height: 100%;
+	position:relative;
+	padding-bottom: 35px;
+}
+
+#schmetterling { 
+	margin: 0;
+	top: -30px;
+	position: absolute;
+	right: -40px;
+}
+
+}
+
+@media screen 
+and (max-width : 1099px) {
+
+#menu-main_menu li a {
+	font-size: 110%;
+	padding: 0 12px;
+}
+
+
+}
+
+@media screen 
+and (max-width : 949px) {
+	
+#header h2 {
+	font-size: 270%;
+	line-height: 115%;
+}
+
+#header h3 {
+font-size: 150%;
+}
+
+#headline {
+ 	width: 50%;
+}
+
+#menu-main_menu li a, #menu-main_menu li .sub-menu li a {
+	font-size: 100%;
+	padding: 0 12px;
+}
+#menu-main_menu li .sub-menu li a {
+	line-height: 30px;
+	height: 30px;
+}
+
+.twoCol {
+	width: 100%;
+}
+
+.twoCol .one {
+	background-size: cover;
+}
+
+.zweizeilig {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.oneCol {
+	width: 100%;
+	margin-left: 0;
+}
+
+.gruen, .partner {
+	background-size: cover;
+}
+
+.partner, .oeffnungszeiten {
+	margin-top: 40px;
+}
+
+footer .facebookLike {
+	clear: both;
+	margin: 10px 0 0 0;
+}
+
+section {
+	width: 70%;
+	margin-left: 0;
+}
+	
+}
+
+
+@media screen 
+and (max-width : 799px) {
+	
+section { width: 60%; }
+aside { width: 35%; }
+
+.topGroup .gruen {
+		background: url(../img/bg_gruen.jpg) no-repeat;
+		padding-bottom: 30px;
+}
+
+#sliderCont {
+	width: 100%;
+}
+
+.aktuelles {
+	width: 100%;
+	margin-top: 30px;
+}
+
+#schmetterling {
+	right: 10px;
+	top: 10px;
+}
+
+#headNav .textwidget { display: none;}
+
+.menu-main_menu-container { padding: 10px 0;}
+
+#menu-main_menu li a {
+	line-height: 30px;
+	height: 30px;
+}
+
+#menu-main_menu li.current-menu-item a, #menu-main_menu li.current_page_item a, #menu-main_menu li.current_page_ancestor a, #menu-main_menu li.current_page_parent a, #menu-main_menu li.current-menu-ancestor a, #menu-main_menu li.current-menu-parent a {
+	border: none;
+}
+
+td, th {
+	float: left;
+	width: 100%;
+	border: none;
+}
+tr {
+	border-bottom: 2px solid #e2edd9 ;
+}
+
+td:nth-child(2), td:nth-child(3), th:nth-child(2), th:nth-child(3) {
+	text-align:right;
+	width: 100%;
+}
+
+th:nth-child(2), th:nth-child(3) {
+	display: none;
+}
+
+td:nth-child(2):before, td:nth-child(3):before {
+	font-size: 70%;
+	color: #bbb;
+	margin-right: 10px;
+}
+
+
+.tageskarten td:nth-child(2):before { content: "Tageskarte "; }
+.tageskarten td:nth-child(3):before { content: "Kombikarte "; }
+
+.saisonkarten td:nth-child(2):before { content: "Saisonkarte "; }
+.saisonkarten td:nth-child(3):before { content: "Dauerkarte "; }
+
+
+	
+}
+
+
+
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	
+section, aside { width: 100%; margin-left: 0; margin-right: 0; border: none; }
+aside { padding: 0; margin-top: 30px;}
+
+#headNav { width:90%;}
+
+#wrapper {
+	padding: 20px;
+	width: 90%;
+}
+
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+body {
+	overflow:hidden;
+}
+
+#headNav input[type=text] { width: 142px; }
+#headNav input[type=text]:hover { width: 142px; }
+
+#headline {
+	width: 80%;
+	margin: 10px 0 0 20px;
+}
+
+#headline h2 {	font-size: 210%; line-height: 100%; margin-bottom: 10px; margin-top: 0; display: none; }
+#header h3 {  
+	font-size: 140%;
+	margin-top: 10px;
+	width: 55%;
+}
+
+#header { height: 100px; }
+
+#logo {
+	margin: 0;
+	right: -55px;
+	width: 60%;
+}
+
+h2.slide-title {
+	font-size: 130%;
+}
+
+.responsive-slider.flexslider .flex-control-nav {
+	bottom: -85px !important;
+}
+
+p { line-height: 150%;}
+
+#schmetterling { display: none;}
+
+.twoCol .one, .twoCol .one:nth-of-type(odd) { 
+	width: 100%; margin-left: 0;
+}
+.twoCol, .zweizeilig, .oeffnungszeiten { 
+	width: 100%; margin-left: 0%;
+}
+.partner .center img {
+	margin: 0 3%;
+	width: 35%;
+}
+.teaserTitle h3 {
+	font-size: 105%;
+	line-height: 260%;
+}
+
+.oeffnungszeiten p.tag {
+	font-size: 140%;
+	padding-top: 30px;
+}
+
+.oeffnungszeiten p.uhrzeit {
+	font-size: 220%;
+}
+
+footer { 
+	height: auto;
+	padding-bottom: 200px;
+	padding-left: 30px;
+	background-size: cover;
+	margin-top: 70px;
+}
+footer address p { font-size: 100%;}
+
+footer #tulpen {
+	width: 200px;
+	height: 187px;
+	background-size: cover;
+}
+
+.post-type-archive-event section {
+	width: 100%;
+	margin-left: 0;
+}
+.post-type-archive-event h3 { font-size: 120%; }
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
